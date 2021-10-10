@@ -10,6 +10,7 @@
 
 
 bool DR_Check();
+bool DLL_Check();
 
 //
 // Debug

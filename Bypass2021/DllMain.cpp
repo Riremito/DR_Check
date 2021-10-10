@@ -1,5 +1,11 @@
 #include"Bypass.h"
 
+bool Bypass() {
+	DR_Check();
+	DLL_Check();
+	return true;
+}
+
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved) {
 	switch (fdwReason) {
 	case DLL_PROCESS_ATTACH:

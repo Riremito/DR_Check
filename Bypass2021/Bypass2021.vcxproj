@@ -149,6 +149,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DLL_Check.cpp" />
     <ClCompile Include="DR_Check.cpp" />
     <ClCompile Include="DllMain.cpp" />
   </ItemGroup>
